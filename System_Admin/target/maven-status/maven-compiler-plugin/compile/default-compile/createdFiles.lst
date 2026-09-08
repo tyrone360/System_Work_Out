@@ -1,0 +1,5 @@
+com\mycompany\system_admin\CaseType.class
+com\mycompany\system_admin\ClinicManager.class
+com\mycompany\system_admin\System_Admin.class
+com\mycompany\system_admin\ClientRecord.class
+com\mycompany\system_admin\WardClient.class
