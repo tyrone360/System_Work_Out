@@ -22,26 +22,26 @@ public class WardClient extends ClientRecord {
         super(clientId, firstName, lastName, age, gender,
               medicalCondition, CaseType.INPATIENT);
         
-         
+         //
         this.wardNumber = wardNumber;
         this.bedNumber = bedNumber;
     }
-
+//
     public String getWardNumber() {
         return wardNumber;
     }
-
+//
     public String getBedNumber() {
         return bedNumber;
     }
-
+//
     public void setBedNumber(String bedNumber) {
         this.bedNumber = bedNumber;
     }
 
     @Override
     public void displayDetails() {
-
+//
         super.displayDetails();
 
         System.out.println("Ward Number: " + wardNumber);
