@@ -33,7 +33,7 @@ public class System_Admin {//start of class
                 choice = Integer.parseInt(input.nextLine());
 
                 switch (choice) {
-
+//
                     case 1:
                         registerClient();
                         break;
@@ -99,7 +99,7 @@ public class System_Admin {//start of class
                     //this will make an user to crash the project
                 System.out.println(
                         "Invalid input. Please enter a number.");
-
+//
                 choice = -1;
             }
 
@@ -130,7 +130,7 @@ public class System_Admin {//start of class
         System.out.println("0. Exit");
         System.out.println("==============================");
     }
-
+//
     //craetion of a string that will allow the user to
     //Register client useing their credentials fully
     
@@ -245,7 +245,7 @@ public class System_Admin {//start of class
                     "Client was not found.");
         }
     }
-
+//
             //any user which has updated he/her information must able to update client
            //information anytime they wish to
     public static void updateClient() {
