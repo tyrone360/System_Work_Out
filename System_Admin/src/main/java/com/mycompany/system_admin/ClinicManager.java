@@ -34,7 +34,7 @@ public class ClinicManager {
             }
         }
     }
-
+//
     // Register a client
     public boolean addClient(ClientRecord client) {
 
@@ -59,7 +59,7 @@ public class ClinicManager {
                 return client;
             }
         }
-
+//
         return null;
     }
 
@@ -107,7 +107,7 @@ public class ClinicManager {
 
         if (client == null) {
             return false;
-        }
+        }//
 
         client.setFirstName(firstName);
         client.setLastName(lastName);
@@ -189,7 +189,7 @@ public class ClinicManager {
                 }
             }
         }
-
+//
         System.out.println("Bed does not exist.");
 
         return false;
@@ -235,7 +235,7 @@ public class ClinicManager {
                 }
             }
         }
-
+//
         System.out.println("Bed is not occupied.");
 
         return false;
