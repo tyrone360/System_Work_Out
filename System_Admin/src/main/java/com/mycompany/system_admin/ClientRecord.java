@@ -91,6 +91,4 @@ public class ClientRecord {//creating a string that will allow user to enter the
         System.out.println("Medical Condition: " + medicalCondition);
         System.out.println("Case Type: " + caseType);
     }
-
-    
 }
