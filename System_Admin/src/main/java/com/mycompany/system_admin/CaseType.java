@@ -10,7 +10,9 @@ package com.mycompany.system_admin;
  */
 public enum CaseType {// This will tell use how we should have and deal will the problem 
                        // It helps people that have emergencies to be put on the front of the line                
+  
     INPATIENT,
     OUTPATIENT,
     EMERGENCY
+  
 }
