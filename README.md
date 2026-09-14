@@ -1,7 +1,6 @@
 # System Administration and User Registration
 
 ## Project Overview
-
 This project is a Java-based System Administration and User Registration
 system. It is designed to manage user accounts and control access to
 different parts of the system.
@@ -12,7 +11,6 @@ creating the account.
 
 The administration section allows an authorised administrator to manage
 registered users and their access.
-//
 
 ## Main Features
 
@@ -51,7 +49,7 @@ system-related functions.
 
 A registered user can log into the system and access the functions
 available to normal users.
-//
+
 ## System Flow
 
 1. The user opens the registration section.
@@ -78,7 +76,6 @@ administrative functions.
 
 User login details should be handled securely, and users should only
 have access to functions allowed by their assigned role.
-//
 ## Project Purpose
 
 The purpose of this project is to create a simple Java application that
