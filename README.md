@@ -1,6 +1,7 @@
 # System Administration and User Registration
 
-## Project Overview
+## Project Overview 
+
 This project is a Java-based System Administration and User Registration
 system. It is designed to manage user accounts and control access to
 different parts of the system.
@@ -62,6 +63,7 @@ available to normal users.
 8. The administrator can manage registered users.
 
 ## Technologies Used
+
 
 - Java
 - Java Swing / JavaFX (depending on the interface used)
