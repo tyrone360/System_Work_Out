@@ -9,12 +9,15 @@ package com.mycompany.system_admin;
  * @author nsumo_a3gijbh
  */
 public class WardClient extends ClientRecord {
+  
   // shows how many beds are available for a patient and how many beds will be free to be used 
          //This will help save time
-    
+
+  
     private String wardNumber;
     private String bedNumber;
 
+  
     public WardClient(String clientId, String firstName, String lastName,
                       int age, String gender, String medicalCondition,
                       String wardNumber, String bedNumber) {
