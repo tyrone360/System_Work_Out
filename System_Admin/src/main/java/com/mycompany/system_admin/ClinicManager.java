@@ -4,6 +4,7 @@
  */
 package com.mycompany.system_admin;
 
+
 /**
  *
  * @author nsumo_a3gijbh
@@ -49,6 +50,7 @@ public class ClinicManager {
         System.out.println("Client registered successfully.");
         return true;
     }
+    
 
     // Search for a client
     public ClientRecord findClient(String id) {
